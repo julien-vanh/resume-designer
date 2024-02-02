@@ -1,0 +1,8 @@
+.section-3 .section-title {
+    border-top: 4pt dotted {{sectionColor}};
+    padding-top: 0.25em;
+}
+.section-3 .section-title span {
+    color: {{sectionColor}};
+    text-transform: uppercase;
+}

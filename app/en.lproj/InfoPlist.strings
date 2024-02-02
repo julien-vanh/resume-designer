@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  ResumeDesigner
+
+  Created by Julien Vanheule on 30/09/2022.
+  
+*/
+"CFBundleDisplayName" = "Resume Designer";
+"CFBundleName" = "Resume Designer";

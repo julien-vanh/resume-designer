@@ -1,0 +1,26 @@
+<section class="title title-16">
+    <h2>{{designation}}</h2>
+    <h1>{{name}}</h1>
+</section>
+
+<style>
+    .title-16 {
+        border: 2pt solid {{titleColor}};
+        border-radius: 8pt;
+    }
+    .title-16 h1 {
+        padding: 4pt 5pt;
+        font-size: 2em;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: {{titleColor}}
+    }
+    .title-16 h2 {
+        border-top-left-radius: 5pt;
+        border-top-right-radius: 5pt;
+        padding: 2pt 5pt;
+        font-size: 1.5em;
+        background: {{titleColor}};
+        color: {{titleColorContrasted}}
+    }
+</style>

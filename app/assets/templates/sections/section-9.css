@@ -1,0 +1,11 @@
+.section-9 .section-title {
+    background-color: {{sectionColor}};
+    border: 0;
+    text-align: center;
+    text-transform: uppercase;
+    clip-path: polygon(0 calc(100% - 0.75em), 0 0, calc(100% - 0.75em) 0, 100% 0.75em, 100% 100%, 0.75em 100%);
+    padding: 0.25em 1em;
+}
+.section-9 .section-title span {
+    color: {{sectionColorContrasted}};
+}

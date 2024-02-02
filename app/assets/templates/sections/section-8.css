@@ -1,0 +1,16 @@
+.section-8 {
+    display: flex;
+}
+.section-8 .section-title {
+    display: block;
+    min-width: 3cm;
+    padding-right: 0.75em;
+    text-align: right;
+}
+.section-8 .section-title span {
+    color: {{sectionColor}};
+}
+.section-8 .section-content {
+    padding-left: 0.75em;
+    border-left: 2pt {{sectionColor}} solid;
+}

@@ -1,0 +1,57 @@
+<section class="title title-17">
+    <span class="top-left"></span>
+    <span class="top-right"></span>
+    <div style="padding: 1em;">
+        <h2>{{designation}}</h2>
+        <h1>{{name}}</h1>
+    </div>
+    <span class="bottom-left"></span>
+    <span class="bottom-right"></span>
+</section>
+
+<style>
+    .title-17 {
+        position: relative;
+        display: inline-block;
+        left: 50%;
+        transform: translateX(-50%);
+        text-transform: uppercase;
+    }
+    .title-17 span {
+        display: block;
+        width: 0.75em;
+        height: 0.75em;
+        position: absolute;
+    }
+    .title-17 .top-left {
+        left: 0;
+        top: 0;
+        border-top: 3pt solid {{titleColor}};
+        border-left: 3pt solid {{titleColor}};
+    }
+    .title-17 .top-right {
+        right: 0;
+        top: 0;
+        border-top: 3pt solid {{titleColor}};
+        border-right: 3pt solid {{titleColor}};
+    }
+    .title-17 .bottom-left {
+        left: 0;
+        bottom: 0;
+        border-bottom: 3pt solid {{titleColor}};
+        border-left: 3pt solid {{titleColor}};
+    }
+    .title-17 .bottom-right {
+        right: 0;
+        bottom: 0;
+        border-bottom: 3pt solid {{titleColor}};
+        border-right: 3pt solid {{titleColor}};
+    }
+    .title-17 h1 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .title-17 h2 {
+        font-size: 1.25em;
+    }
+</style>

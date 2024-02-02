@@ -1,0 +1,25 @@
+<div class="item-detailled item-5">
+    <div class="col1">
+        <div style="font-weight: bold; color: {{itemColor}};">&bull;&ensp;{{item.formattedDate}}</div>
+    </div>
+    <div class="col2">
+        <div style="font-weight: bold;">{{item.title}}</div>
+        <div style="font-style: italic;">{{item.company}},&ensp;{{item.address}}</div>
+        <div style="text-align: justify;">{{item.description}}</div>
+    </div>
+</div>
+
+<style>
+    .item-5 {
+        clear: left;
+    }
+    .item-5 .col1 {
+        float: left;
+        width: 100px;
+        text-align: left;
+    }
+    .item-5 .col2 {
+        margin-left: 100px;
+        padding-left: 1em;
+    }
+</style>

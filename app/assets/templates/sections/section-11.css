@@ -1,0 +1,18 @@
+.section-11 {
+    display: flex;
+}
+.section-11 .section-title {
+    display: block;
+    min-width: 3cm;
+    
+}
+.section-11 .section-title span {
+    color: {{sectionColorContrasted}};
+    display: block;
+    text-align: right;
+    background: {{sectionColor}};
+    padding: 0.5em;
+}
+.section-11 .section-content {
+    padding-left: 0.5em;
+}

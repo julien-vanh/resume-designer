@@ -1,0 +1,46 @@
+{% extends "layout-base.html" %}
+
+{% block body %}
+
+<table class="color-background1">
+    <tr>
+        <td class="padding sides">
+            {% include TITLE %}
+        </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td class="sides padding" style="padding-bottom: 0;">
+            <table style="border-radius: 15px; overflow: hidden;" class="color-background2">
+                <tr>
+                    {% if photo.content %}
+                        <td style="width: 33%;" class="td-align-middle">
+                            {% include "photo.html" %}
+                        </td>
+                        
+                        <td class="padding td-align-middle">
+                            {% include CONTACT %}
+                        </td>
+                    {% else %}
+                        <td class="padding td-align-middle" colspan="2">
+                            {% include CONTACT %}
+                        </td>
+                    {% endif %}
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    <tr>
+        <td class="padding sides bottom">
+            {% include "section.html" allSections %}
+        </td>
+    </tr>
+</table>
+
+{% endblock %}
+
+
+

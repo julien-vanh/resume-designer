@@ -1,0 +1,56 @@
+title: Resume Designer
+baseurl: /
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+palette: blue
+header:
+  title: Resume Designer
+  logo_img: images/logo.png
+  has_nav: true
+  nav_links:
+    - label: Home
+      url: /
+    - label: Try for free
+      url: /download
+      primary: true
+footer:
+  logo_img: images/logo_alt.png
+  tagline: Resume builder
+  has_nav: true
+  nav_title: Contact
+  nav_links:
+    - label: contact@resume-designer.com
+      url: mailto:contact@resume-designer.com
+  has_social: true
+  social_title: Notice
+  social_links:
+    - label: Privacy policy
+      url: /privacy
+    - label: Legal notice
+      url: /legal
+  has_subscribe: false
+  subscribe_title: Abonnez-vous
+  subscribe_content: Restez informés de nos derniers développements.
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
+plugins:
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
+  - serve.sh
+  - firebase.json

@@ -1,0 +1,57 @@
+{% if photo.content %}
+<section id="photo">
+    <div class="frame {{photo.shapeClass}} {{photo.frameClass}}">
+        <img src="data:image/png;base64, {{photo.content}}" class="{{photo.shapeClass}}" alt="photo" />
+    </div>
+</section>
+
+<style>
+    #photo {
+        margin: auto;
+    }
+    #photo .frame {
+        width: {{photo.width}};
+        height: {{photo.height}};
+        margin: auto;
+    }
+    #photo img {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .shape-square {
+        border-radius: initial;
+    }
+    .shape-rounded {
+        border-radius: 16px;
+    }
+    .shape-circle {
+        border-radius: 50%;
+    }
+    
+    .frame-none {
+        padding: 0;
+        margin: 0;
+        border-width: 0;
+    }
+    .frame-simple {
+        padding: 5px;
+        background: {{photo.color1}};
+    }
+    .frame-contrasted {
+        border: 5px solid {{photo.color1}};
+        padding: 5px;
+    }
+    .frame-double {
+        border: 5px solid {{photo.color1}};
+        background: {{photo.color2}};
+        padding: 5px;
+    }
+    .frame-bicolor {
+        padding: 8px;
+        background: linear-gradient(90deg, {{photo.color1}} 50% ,{{photo.color2}} 50%);
+    }
+</style>
+{% endif %}

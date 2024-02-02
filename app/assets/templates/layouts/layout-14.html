@@ -1,0 +1,35 @@
+{% extends "layout-base.html" %}
+
+{% block body %}
+
+<table class="color-background1">
+    <tr>
+        {% if photo.content %}
+            <td class="td-align-middle left" style="width: 33%;">
+                {% include "photo.html" %}
+            </td>
+            <td class="td-align-middle padding right">
+                {% include TITLE %}
+                {% include CONTACT %}
+            </td>
+        {% else %}
+            <td class="td-align-middle padding sides">
+                {% include TITLE %}
+                {% include CONTACT %}
+            </td>
+        {% endif %}
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td class="padding sides bottom">
+            {% include "section.html" detailledSections %}
+        </td>
+    </tr>
+</table>
+        
+{% endblock %}
+
+
+

@@ -1,0 +1,101 @@
+{% extends "layout-base.html" %}
+
+{% block body %}
+
+<style>
+    /* DEBUG */
+    .container { margin-bottom: 20px; background-color: white; padding: 10px;}
+    body { background-color: red; padding: 40px;}
+</style>
+
+<div class="container">
+    {% for section in allSections.sections %}
+    <section>
+        <h2  class="section-title"  >{{section.title}}</h2>
+        <div class="section-content">
+            {% for item in section.items %}
+            <div class="item">
+                {% include "item-0.html" %}
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+</div>
+
+<div class="container">
+    {% for section in allSections.sections %}
+    <section>
+        <h2  class="section-title"  >{{section.title}}</h2>
+        <div class="section-content">
+            {% for item in section.items %}
+            <div class="item">
+                {% include "item-1.html" %}
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+</div>
+
+<div class="container">
+    {% for section in allSections.sections %}
+    <section>
+        <h2  class="section-title"  >{{section.title}}</h2>
+        <div class="section-content">
+            {% for item in section.items %}
+            <div class="item">
+                {% include "item-2.html" %}
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+</div>
+
+<div class="container">
+    {% for section in allSections.sections %}
+    <section>
+        <h2  class="section-title"  >{{section.title}}</h2>
+        <div class="section-content">
+            {% for item in section.items %}
+            <div class="item">
+                {% include "item-3.html" %}
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+</div>
+
+<div class="container">
+    {% for section in allSections.sections %}
+    <section>
+        <h2  class="section-title"  >{{section.title}}</h2>
+        <div class="section-content">
+            {% for item in section.items %}
+            <div class="item">
+                {% include "item-4.html" %}
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+</div>
+
+<div class="container">
+    {% for section in allSections.sections %}
+    <section>
+        <h2  class="section-title"  >{{section.title}}</h2>
+        <div class="section-content">
+            {% for item in section.items %}
+            <div class="item">
+                {% include "item-5.html" %}
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+</div>
+        
+{% endblock %}

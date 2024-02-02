@@ -1,0 +1,8 @@
+.section-2 .section-title {
+    font-size: 1.5em;
+}
+
+.section-2 .section-title span {
+    font-style: italic;
+    color: {{sectionColor}};
+}

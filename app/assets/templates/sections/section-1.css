@@ -1,0 +1,7 @@
+.section-1 .section-title span {
+    padding: 0.25em 0.5em;
+    text-transform: uppercase;
+    color: {{sectionColorContrasted}};
+    background-color: {{sectionColor}};
+    display: inline-block;
+}

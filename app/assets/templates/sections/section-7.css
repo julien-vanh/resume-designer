@@ -1,0 +1,9 @@
+.section-7 {
+    border-left: 2pt solid {{sectionColor}};
+    padding-left: 0.5em;
+}
+.section-7 .section-title span {
+    color: {{sectionColor}};
+    font-weight: bold;
+    text-transform: uppercase;
+}

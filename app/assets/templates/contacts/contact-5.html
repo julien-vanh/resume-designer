@@ -1,0 +1,30 @@
+<section class="contact contact-5">
+    
+    {% for line in contactlines %}
+    <div class="contact-line" style="display: flex; align-items: center;">
+        <span>{{line.icon}}</span>
+        
+        {% if line.link %}
+        <span><a href="{{line.link}}">{{line.value}}</a></span>
+        {% else %}
+        <span>{{line.value}}</span>
+        {% endif %}
+    </div>
+    {% endfor %}
+    
+</section>
+
+<style>
+    .contact-5 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact-5 svg {
+        display: block;
+        width: 1em;
+        height: 1em;
+        fill: {{contactColor}};
+        padding: 0.25em 0.5em;
+    }
+</style>

@@ -1,0 +1,26 @@
+Resume Designer allows anyone to create a professional resume quickly in 10 minutes.
+No need to know how to use the advanced features of a text editor, the application takes care of structuring the content and style.
+
+
+STRUCTURED CONTENT
+- Fill in predefined forms with essential information, so you don't forget anything;
+- Change the order of the sections;
+- Add additional sections (certifications, projects, training);
+- Resume with or without photo;
+- Quickly hide certain elements of your resume to best fit the job offer.
+
+PROFESSIONAL STYLE
+- Choose the layout from many templates;
+- Select a template for each section;
+- Adjust colors, font and margins;
+- Millions of combinations are possible, your resume will be as unique as you are.
+
+FEATURES
+- Free PDF export* ;
+- HTML export ;
+- Share by email;
+- Save your .cv file in Files to find it on all your devices (iPhone, iPad and Mac).
+
+We hope you will quickly find a job that matches your aspirations!
+
+*The free version contains a limited number of templates. Some of the features mentioned are only available in the PRO version of the software (one-time purchase without subscription).

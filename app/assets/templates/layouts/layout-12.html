@@ -1,0 +1,25 @@
+{% extends "layout-base.html" %}
+
+{% block body %}
+
+<table>
+    <tr>
+        <td class="left" style="width: 38%;">
+            <div class="color-background2 padding" style="border-radius: 16px; margin-right: 16px;">
+                {% include "photo.html" %}{% if photo.content %}<br />{% endif %}
+                {% include TITLE %}
+                {% include CONTACT %}
+            </div>
+        </td>
+        
+        <td class="right bottom">
+            {% include "section.html" allSections %}
+        </td>
+    </tr>
+</table>
+        
+{% endblock %}
+
+
+
+

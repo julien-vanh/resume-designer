@@ -1,0 +1,15 @@
+<section class="contact contact-6">
+    
+    {% for line in contactlines %}
+    <div style="padding-bottom: 0.5em;">
+        <span style="color: {{contactColor}} !important; font-weight: bold">{{line.label}}</span>
+        <br />
+        {% if line.link %}
+        <span><a href="{{line.link}}">{{line.value}}</a></span>
+        {% else %}
+        <span>{{line.value}}</span>
+        {% endif %}
+    </div>
+    {% endfor %}
+    
+</section>

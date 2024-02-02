@@ -1,0 +1,23 @@
+{% extends "layout-base.html" %}
+
+{% block body %}
+
+<style>
+    /* DEBUG */
+    .container { margin: 40px; background-color: white; width: 21cm; height: 29.7cm; overflow: hidden}
+    body { background-color: gray; padding: 40px;}
+</style>
+
+<div class="container">
+    {% include "layout-2.html" %}
+</div>
+
+<div class="container">
+    {% include "layout-1.html" %}
+</div>
+
+<div class="container">
+    {% include "layout-0.html" %}
+</div>
+        
+{% endblock %}

@@ -1,0 +1,7 @@
+.section-0 .section-title {
+    font-size: 1.5em;
+}
+.section-0 .section-title span {
+    color: {{sectionColor}};
+    text-transform: uppercase;
+}

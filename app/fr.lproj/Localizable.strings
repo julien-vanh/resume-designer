@@ -1,0 +1,227 @@
+/*
+  Localizable.strings
+  ResumeDesigner
+
+  Created by Ubidreams on 07/01/2022.
+  
+*/
+"app.name" = "CV Designer";
+"filename" = "CV";
+
+//Resume List
+"Resumes" = "Mes CVs";
+"New resume" = "Nouveau CV";
+"My resume" = "Mon CV";
+"Create your resume now." = "Créez votre CV maintenant.";
+"(copy)" = "(copie)";
+"Copy" = "Copier";
+"Delete" = "Supprimer";
+"Deletion" = "Suppression";
+"The resume will be delete." = "Le CV sera supprimé.";
+
+//Sidebar
+"Information" = "Informations";
+"Professional profile" = "Profil professionnel";
+"Contact" = "Contact";
+"Add a section" = "Ajouter une section";
+"Style" = "Style";
+"New section" = "Nouvelle section";
+"Sections" = "Sections";
+"Done" = "OK";
+"Edit" = "Éditer";
+"Save" = "Enregistrer";
+
+//Style
+"Save as..." = "Exporter...";
+"HTML" = "HTML";
+"HTML (PRO)" = "HTML (PRO)";
+"PDF" = "PDF";
+"Layout" = "Page";
+"Template" = "Modèle";
+"Colors" = "Couleurs";
+"Misc" = "Divers";
+"Font" = "Police";
+"Size" = "Taille";
+"Document" = "Document";
+"Inset" = "Marge";
+"Photo" = "Photo";
+"Frame" = "Cadre";
+"Color 1" = "Couleur 1";
+"Color 2" = "Couleur 2";
+"Shape" = "Forme";
+"Photo Size" = "Taille de la photo";
+"Width" = "Largeur";
+"Height" = "Hauteur";
+"Skills" = "Compétences";
+"Name and headline" = "Nom et intitulé";
+"Section titles" = "Titres des sections";
+"Section title" = "Titre de la section";
+"The title is mandatory." = "Le titre est obligatoire.";
+"Contact block" = "Bloc de contact";
+"Items" = "Éléments";
+"Document colors" = "Couleurs du document";
+"Theme" = "Thème";
+"Secondary" = "Secondaire";
+"Background" = "Arrière-plan";
+"Text colors" = "Couleurs des textes";
+"Headline" = "Titre";
+"Contact color" = "Contact";
+"Sections" = "Sections";
+"Predefined colors" = "Couleurs prédéfinis";
+
+//Form
+"Presentation" = "Présentation";
+"Full name" = "Nom complet";
+"Headline (ex: Architecte)" = "Intitulé (ex : Architecte)";
+"ex: Certifications" = "ex : Certifications";
+"Contact information" = "Informations de contact";
+"Phone" = "Téléphone";
+"Email" = "E-mail";
+"Address" = "Adresse";
+"Street" = "Rue";
+"Postal code" = "Code postal";
+"City" = "Ville";
+"State/Region" = "Région";
+"Country" = "Pays";
+"Additional information" = "Informations additionnelles";
+"Add an item" = "Ajouter un élément";
+"Add" = "Ajouter";
+"Section name" = "Nom de la section";
+"Contact" = "Contact";
+"Editing" = "Modification";
+"New item" = "Nouvel élément";
+"Education" = "Formation";
+"Close" = "Fermer";
+"Cancel" = "Annuler";
+"OK" = "OK";
+"Title" = "Intitulé";
+"School" = "École";
+"Company name" = "Entreprise";
+"Location" = "Lieu";
+"I am currently studying" = "J'étudie actuellement";
+"I am currently working in this role" = "J'y travaille actuellement";
+"Start date" = "Date de début";
+"End date" = "Date de fin";
+"Description" = "Détails";
+"Hidden" = "Caché";
+"Language" = "Langue";
+"ex: French" = "ex: Anglais";
+"Level" = "Niveau";
+"Choose a level" = "Choisir un niveau";
+"Paragraph" = "Paragraphe";
+"Rate" = "Niveau";
+"See all" = "Tout voir";
+"PRO" = "PRO";
+"Take photo" = "Prendre une photo";
+"Pick from library" = "Importer depuis Photos";
+"Choose a file..." = "Choisir un fichier";
+"Remove photo" = "Supprimer";
+"Files" = "Fichiers"; //Nom de l'app iOS
+"Name and job title section" = "Section Nom et intitulé";
+"Section headlines" = "Titres des sections";
+"Contact block" = "Bloc de contact";
+"Item" = "Éléments";
+
+//Contenu
+"Phone" = "Téléphone";
+"Email" = "E-mail";
+"Address" = "Adresse";
+"Experiences" = "Expériences";
+"education_section" = "Formations";
+"Skills" = "Compétences";
+"Languages" = "Langues";
+"Hobbies" = "Centres d'intéret";
+"Present" = "Actuel"; //date
+
+"Junior" = "Débutant";
+"Intermediate" = "Intermédiaire";
+"Confirmed" = "Confirmé";
+"Advanced" = "Avancé";
+"Expert"= "Expert";
+
+"Label" = "Texte";
+"Stars" = "Étoiles";
+"Bar 1" = "Barre 1";
+"Bar 2" = "Barre 2";
+"Empty" = "Vide";
+
+"Beginner" = "Débutant";//a1
+"Elementary" = "Intermédiaire";//a2
+"Intermediate" = "Professionnel";//b1
+"Upper Intermediate" = "Indépendant";//b2
+"Advanced" = "Autonome";//c1
+"Proficient" = "Maîtrise";//c2
+"Native" = "Langue maternelle";
+
+"Name" = "Nom";
+"Fill in your full name." = "Remplissez votre nom complet.";
+"Fill in your phone number." = "Remplissez votre numéro de téléphone.";
+"Fill in your address." = "Remplissez votre adresse.";
+"Fill in your email." = "Remplissez votre e-mail.";
+"Job title" = "Métier";
+"What is your job?" = "Remplissez l'intitulé de poste.";
+"Work experience" = "Expériences professionnelles";
+"List your work experiences." = "Faites la liste de vos expériences professionnelles";
+"Skills" = "Compétences";
+"Skill" = "Compétence";
+"List your skills." = "Faites la liste de vos compétences";
+"Languages" = "Langues";
+"List your languages." = "Faites la liste de vos langues étrangères";
+"Portrait" = "Photo";
+"Add you photo." = "Ajoutez une photo de profil";
+"Hobbies, certificats, projects" = "Loisirs, certificats, projets";
+"Add another section to complete your resume." = "Ajoutez une autre section pour compléter votre CV.";
+"Your resume is ready." = "Votre CV est prêt.";
+
+"None" = "Aucun";
+"Simple" = "Simple";
+"Contrasted" = "Contrasté";
+"Double" = "Double";
+"Two tones" = "Deux tons";
+"Square" = "Carré";
+"Rounded" = "arrondie";
+"Circle" = "Cercle";
+"www.mywebsite.com" = "www.monsiteweb.com";
+"Detailled items" = "Élements détaillés";
+"Text" = "Zone de texte";
+"Languages" = "Langues";
+"Items" = "Éléments";
+"Skills" = "Compétences";
+"Items with description" = "Élements simples avec description";
+"List of items with dates, description, company name and location." = "Une liste d'éléments avec dates, description, nom de l'entreprise et emplacement.";
+"A simple text area" = "Un simple zone de texte.";
+"A list of languages with level." = "Une liste de langues avec niveau.";
+"A list of simple elements." = "Une liste d'éléments simples.";
+"A list of skills with rating." = "Une liste de compétences avec notation.";
+"A list of items with a paragraph description." = "Une liste d'éléments avec une description de paragraphe.";
+
+"Birthday" = "Anniversaire";
+"Nationality" = "Nationalité";
+"Mobility" = "Mobilité";
+"Family" = "Famille";
+"Website" = "Site web";
+
+//Purchase page
+"You are using PRO feature, looks amazing!" = "Votre CV utilise des fonctions PRO, magnifique !";
+"Back to free" = "Retour au gratuit";
+"Unlock PRO" = "Déverrouiller PRO";
+"PRO Version" = "Version PRO";
+"Buy the PRO Version" = "Acheter la Version PRO";
+"Get access to all our features" = "Accédez à toutes nos fonctionnalités";
+"Unlock all templates" = "Déverrouillez tous les modèles.";
+"Customize the colors" = "Personnalisez les couleurs.";
+"HTML Export" = "Exportez en HTML.";
+"Removal of the footer link." = "Suppression du lien en bas de page.";
+"Add additional sections" = "Ajoutez des sections supplémentaires.";
+"One-time purchase without subscription" = "Achat unique sans abonnement";
+"Restore purchases" = "Restaurer mes achats";
+"BUY %@" = "ACHETER %@";
+"Internet is required." = "Une connexion est requise";
+"Retry" = "Réessayer";
+"Error" = "Erreur";
+
+": " = " : ";
+"Random content" = "Contenu aléatoire";
+"Use random content" = "Contenu aléatoire";
+"The current content will be COMPLETELY DELETED and will be replaced." = "Le contenu actuel sera ENTIÈREMENT SUPPRIMÉ et sera remplacé.";
+"Confirm" = "Confirmer";

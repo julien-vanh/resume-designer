@@ -1,0 +1,10 @@
+.section-5 .section-title {
+    background: {{sectionColor}};
+    text-transform: uppercase;
+    padding: 0.25em 0.5em;
+    border-radius: 5pt;
+}
+
+.section-5 .section-title span {
+    color: {{sectionColorContrasted}};
+}

@@ -1,0 +1,29 @@
+<section class="contact contact-0">
+    <table>
+    {% for line in contactlines %}
+        <tr>
+            <td class="td-align-middle" style="width: 0.8cm;">{{line.icon}}</td>
+            <td>
+                {% if line.link %}
+                    <span><a href="{{line.link}}">{{line.value}}</a></span>
+                {% else %}
+                    <span>{{line.value}}</span>
+                {% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+    </table>
+</section>
+
+<style>
+    .contact-0 svg {
+        display: block;
+        width: 0.4cm;
+        height: 0.4cm;
+        fill: {{contactColor}};
+        margin: auto;
+    }
+    .contact-0 tr td {
+        padding: 0.1em 0;
+    }
+</style>

@@ -1,0 +1,35 @@
+{% for section in sections %}
+<section class="section {{SECTIONCLASS}}">
+    <h2  class="section-title"><span>{{section.title}}</span></h2>
+    <div class="section-content {{section.style}}">
+        {% if section.style == "titleOnly" %}
+            {% for item in section.items %}
+                <div class="item" style="break-inside: avoid;">{{item.title}}</div>
+            {% endfor %}
+        {% elif section.style == "descriptionOnly" %}
+            {% for item in section.items %}
+                <p style="break-inside: avoid; padding-bottom: 0.5em;">
+                    {{item.description}}
+                </p>
+                {% endfor %}
+        {% elif section.style == "titleDescription" %}
+            {% for item in section.items %}
+                <div class="item" style="break-inside: avoid;">
+                    <strong>{{item.title}}</strong>{% if item.description %}{{colons}}<br />{% endif %}
+                    {{item.description}}
+                </div>
+            {% endfor %}
+        {% elif section.style == "titleRate" %}
+            {% include "item-skill.html" %}
+        {% elif section.style == "language" %}
+            {% for item in section.items %}
+                <div class="item"><b>{{item.title}}</b>{{colons}}{{item.rate | language}}</div>
+            {% endfor %}
+        {% else %}
+            {% for item in section.items %}
+                <div class="item" style="break-inside: avoid;">{% include ITEM %}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+</section>
+{% endfor %}

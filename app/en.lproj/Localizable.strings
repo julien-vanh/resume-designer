@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  ResumeDesigner
+
+  Created by Ubidreams on 07/01/2022.
+  
+*/
+"app.name" = "Resume Designer";
+"filename" = "Resume";
+
+"education_section" = "Education";

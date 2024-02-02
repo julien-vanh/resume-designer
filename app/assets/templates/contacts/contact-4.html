@@ -1,0 +1,25 @@
+<section class="contact contact-4">
+    
+    {% for line in contactlines %}
+    <div class="contact-line">
+        {% if line.link %}
+        <span><a href="{{line.link}}">{{line.value}}</a></span>
+        {% else %}
+        <span>{{line.value}}</span>
+        {% endif %}
+    </div>
+    {% endfor %}
+    
+</section>
+
+<style>
+    .contact-4 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact-4 .contact-line:before{
+        content: "●";
+        padding: 0.25em 0.5em;
+    }
+</style>

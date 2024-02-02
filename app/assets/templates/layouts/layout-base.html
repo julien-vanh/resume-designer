@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+                font-size: {{fontSize}};
+                font-family: {{fontFamily}};
+                background: {{background}};
+            }
+            html, body {
+                height: 100%;
+                box-sizing: border-box;
+            }
+            h1, h2, h3, p, a, span, div {
+                margin: 0;
+                text-decoration: none;
+                color: {{backgroundContrasted}};
+                font-weight: normal;
+            }
+            table {
+                width: 100%;
+                table-layout: fixed;
+                border-collapse: collapse;
+                border-width: 0;
+                border-spacing: 0;
+                padding: 0;
+                margin: 0;
+            }
+            td {
+                overflow: hidden;
+                vertical-align: top;
+            }
+            tr, td {
+                border-style: none;
+                border-width: 0;
+                padding: 0;
+                margin: 0;
+            }
+            /* ----------------------------------------- */
+            .padding {
+                padding: 0.75em;
+                box-sizing: border-box;
+            }
+            .right {
+                padding-right: {{inset}} !important;
+            }
+            .left {
+                padding-left: {{inset}} !important;
+            }
+            .sides {
+                padding-left: {{inset}} !important;
+                padding-right: {{inset}} !important;
+            }
+            .bottom {
+                padding-bottom: 0 !important;
+            }
+            .td-align-middle {
+                vertical-align: middle !important;
+            }
+            .color-background1 {
+                background: {{color1}};
+            }
+            .color-background2 {
+                background: {{color2}};
+            }
+            .color-background1 h1, .color-background1 h2, .color-background1 h3,
+            .color-background1 p, .color-background1 a, .color-background1 span, .color-background1 div {
+                color: {{color1Contrasted}};
+            }
+            .color-background2 h1, .color-background2 h2, .color-background2 h3,
+            .color-background2 p, .color-background2 a, .color-background2 span, .color-background2 div {
+                color: {{color2Contrasted}};
+            }
+            .color-title {
+                color: {{titleColor}} !important;
+            }
+            /* ----------------------------------------- */
+            section {
+                clear: both;
+                padding-top: 1em;
+            }
+            section:first-child {
+                padding-top: 0em !important;
+            }
+            h2.section-title {
+                font-size: 0.75em;
+                margin-bottom: 4pt;
+            }
+            .section-content {
+                font-size: 0.8em;
+            }
+            .contact {
+                font-size: 0.8em;
+            }
+            {% include SECTIONSTYLE %}
+            
+            .titleOnly {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .titleOnly .item {
+                width: 100%;
+                max-width: 280px;
+            }
+            .item-detailled {
+                padding-bottom: 0.5em;
+            }
+            .title {
+                {{titleAlignment}}
+            }
+            /* ----------------------------------------- */
+            progress[value] {
+              /* Reset the default appearance */
+              -webkit-appearance: none;
+              appearance: none;
+              width: 100%;
+              height: 1em;
+            }
+            progress[value]::-webkit-progress-bar {
+              background-color: {{skillColor}}33;
+              border-radius: 3px;
+            }
+            progress[value]::-webkit-progress-value {
+                background-color: {{skillColor}};
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+
+    <body>
+        {% block body %}{% endblock %}
+    </body>
+</html>
+

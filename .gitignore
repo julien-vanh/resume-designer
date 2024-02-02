@@ -1,0 +1,8 @@
+www/.jekyll-cache
+www/.sass-cache
+www/vendor
+www/_site
+app/ResumeDesigner.xcodeproj/xcuserdata/julien.xcuserdatad
+app/ResumeDesigner.xcodeproj/xcshareddata
+app/ResumeDesigner.xcodeproj/project.xcworkspace/xcuserdata/julien.xcuserdatad
+app/ResumeDesigner.xcodeproj/project.xcworkspace/xcshareddata

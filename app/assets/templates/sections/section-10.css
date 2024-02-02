@@ -1,0 +1,16 @@
+.section-10 .section-title {
+    border: 3pt solid {{sectionColor}};
+    border-radius: 1em;
+}
+.section-10 .section-title span {
+    display: inline-block;
+    background: {{sectionColor}};
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border: 0;
+    min-width: 50%;
+    max-width: 75%;
+    color: {{sectionColorContrasted}};
+    text-transform: uppercase;
+    padding: 0em 0.5em;
+}

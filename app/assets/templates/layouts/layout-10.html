@@ -1,0 +1,26 @@
+{% extends "layout-base.html" %}
+
+{% block body %}
+
+<div class="color-background2" style="width:calc(100% * 200/612); height:100%; position:absolute; top:0px; bottom:0px; margin: auto; margin-top: 0px !important; z-index: -1;"></div>
+
+<table>
+    <tr>
+        <td class="color-background2 padding left bottom" style="width:calc(100% * 200/612);">
+            {% include "photo.html" %}{% if photo.content %}<br />{% endif %}
+            {% include CONTACT %}
+            {% include "section.html" otherSections %}
+        </td>
+        
+        <td>
+            <div class="color-background1 padding right">
+                {% include TITLE %}
+            </div>
+            <div class="padding right bottom">
+                {% include "section.html" detailledSections %}
+            </div>
+        </td>
+    </tr>
+</table>
+        
+{% endblock %}

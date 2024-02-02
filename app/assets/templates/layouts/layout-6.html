@@ -1,0 +1,45 @@
+{% extends "layout-base.html" %}
+
+{% block body %}
+
+<div class="color-background2" style="width:calc(100% * 200/612); height:100%; position:absolute; top:0px; bottom:0px; margin: auto; margin-top: 0px !important; z-index: -1;"></div>
+
+<table class="color-background1">
+    <tr>
+        {% if photo.content %}
+            <td class="td-align-middle left" style="width:calc(100% * 200/612);">
+                {% include "photo.html" %}
+            </td>
+            
+            <td class="padding td-align-middle right">
+                {% include TITLE %}
+            </td>
+        {% else %}
+            <td class="padding td-align-middle sides" colspan="2">
+                {% include TITLE %}
+            </td>
+        {% endif %}
+        
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td class="padding color-background2 left bottom" style="width:calc(100% * 200/612);">
+            <section class="section {{SECTIONCLASS}}" >
+                <h2  class="section-title"  ><span>{{contactTitle}}</span></h2>
+                <div class="section-content">
+                    {% include CONTACT %}
+                </div>
+            </section>
+            {% include "section.html" otherSections %}
+        </td>
+        
+        <td class="padding right bottom">
+            {% include "section.html" detailledSections %}
+        </td>
+    </tr>
+</table>
+        
+{% endblock %}
+

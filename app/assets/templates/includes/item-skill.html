@@ -1,0 +1,48 @@
+{% if skillStyle == "bar1" %}
+    <table>
+    {% for item in section.items %}
+    <tr>
+        <td>{{item.title}}</td>
+        <td><progress value = "{{item.rate}}" max = "5"/></td>
+    </tr>
+    {% endfor %}
+    </table>
+{% elif skillStyle == "bar2" %}
+    {% for item in section.items %}
+    <div style="height: 1.5em;">
+        <div class="skill-progress-bar"><progress value = "{{item.rate}}" max="5"/></div>
+        <div class="skill-title" style="position: relative; top: -1.25em; left: 0.25em; color: {{skillColorContrasted}};">{{item.title}}</div>
+    </div>
+    {% endfor %}
+{% elif skillStyle == "stars" %}
+    <table>
+    {% for item in section.items %}
+    <tr>
+        <td>
+            <b>{{item.title}}</b>{{colons}}
+        </td>
+        <td style="color: {{skillColor}}">
+            {% if item.rate == 1 %}
+            &#9733;&#9734;&#9734;&#9734;&#9734;
+            {% elif item.rate == 2 %}
+            &#9733;&#9733;&#9734;&#9734;&#9734;
+            {% elif item.rate == 3 %}
+            &#9733;&#9733;&#9733;&#9734;&#9734;
+            {% elif item.rate == 4 %}
+            &#9733;&#9733;&#9733;&#9733;&#9734;
+            {% else %}
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+            {% endif %}
+        </td>
+    </tr>
+    {% endfor %}
+    </table>
+{% elif skillStyle == "text" %}
+    {% for item in section.items %}
+    <div class="item skill-title"><b>{{item.title}}</b>{{colons}}{{item.rate | skill}}</div>
+    {% endfor %}
+{% else %}
+    {% for item in section.items %}
+    <div class="item skill-title">{{item.title}}</div>
+    {% endfor %}
+{% endif %}
