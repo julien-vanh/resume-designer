@@ -1,4 +1,10 @@
 # Resume Designer
+Application de création de CV / Résumé.
+
+![Resume Designer](https://github.com/julien-vanh/resume-designer/blob/80eed507114d479cfbb33f4bf4767490c9338b3d/store/screenshots/macos-1.png)
+![Resume Designer](https://github.com/julien-vanh/resume-designer/blob/80eed507114d479cfbb33f4bf4767490c9338b3d/store/screenshots/macos-2.png)
+![Resume Designer](https://github.com/julien-vanh/resume-designer/blob/80eed507114d479cfbb33f4bf4767490c9338b3d/store/screenshots/macos-3.png)
+![Resume Designer](https://github.com/julien-vanh/resume-designer/blob/80eed507114d479cfbb33f4bf4767490c9338b3d/store/screenshots/macos-4.png)
 
 
 ## Application (app)
